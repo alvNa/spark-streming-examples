@@ -29,7 +29,9 @@ To execute the Kafka example we need to download Apache Kafka locally and Create
 
   2.1 Start the server:
         > bin/zookeeper-server-start.sh config/zookeeper.properties
+
   2.2 Create a topic:
         > bin/kafka-topics.sh --create --zookeeper localhost:2181 --replication-factor 1 --partitions 1 --topic testLogs
+
   2.3 Create a console producer:
         > bin/kafka-console-producer.sh --broker-list localhost:9092 --topic testLogs < src/main/resources/access_log.txt
