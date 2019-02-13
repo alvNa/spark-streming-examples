@@ -18,7 +18,7 @@ https://docs.oracle.com/cd/E86824_01/html/E54763/netcat-1.html
 We can use this command to create a streaming of example with a text file.
 
 * Mac Example:
-     > nc -kl 7777 src/main/resources/access-log.txt
+     > nc -kl 7777 < src/main/resources/access-log.txt
 
 
 Kafka
