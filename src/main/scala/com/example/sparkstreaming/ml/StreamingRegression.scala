@@ -1,4 +1,4 @@
-package com.example.sparkstreaming
+package com.example.sparkstreaming.ml
 
 import com.example.sparkstreaming.Utilities.setupLogging
 import org.apache.spark.mllib.linalg.Vectors

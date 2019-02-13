@@ -36,7 +36,7 @@ object StructuredStreaming {
      
      val matcher:Matcher = logPattern.matcher(x.getString(0)); 
      if (matcher.matches()) {
-       val timeString = matcher.group(4)
+
        return Some(LogEntry(
            matcher.group(1),
            matcher.group(2),
